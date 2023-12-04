@@ -1,30 +1,44 @@
-# MOS Burgers Shop Management System
+# MOS Burgers Digital System
 
-## Introduction
+## Overview
 
-"MOS Burgers" is a locally-owned medium scale business that specializes in selling a wide variety of burgers, submarines, and soft drinks. To streamline and modernize operations, we aim to establish a digital system that can efficiently handle tasks such as Order Processing, Store Management, Bill Issuing, and Customer Management.
+Welcome to the MOS Burgers Digital System repository! This project aims to revolutionize the current manual processes at MOS Burgers, a local medium-scale business, by introducing a digital system for efficient Order Processing, Store Management, Bill Issuing, and Customer Management.
 
-## Project Scope and Requirements 
+## Project Scope and Requirements
+
+To ensure a seamless transition from manual to digital operations, the system will focus on two key aspects: Store Management and Order Management.
 
 ### Store Management
 
-The system should provide the following functionalities:
+The Store Management module allows users to handle the inventory of food items efficiently. Key features include:
 
-- **View all food items**: Display a comprehensive list of food items along with their price, quantity on hand, expiration dates for packaged foods, and the unique food item code.
-- **Update and delete food items**: Modify the details of existing food items or remove them from the system.
-- **Add new items**: Include new food items into the system.
-- **Expiration notifications**: Alert the user about expired food items and remove those items from the system.
+- **View All Food Items:**
+  - Display a comprehensive list of food items categorized for easy navigation.
+  - Include details such as price, quantity on hand, expiration dates for packaged foods, and the unique food item code.
+
+- **Update and Delete Food Items:**
+  - Provide functionality to update and delete existing food items as needed.
+
+- **Add Items to the System:**
+  - Allow users to add new items to the system, including relevant details such as price, quantity, and expiration dates.
+
+- **Expiration Notifications:**
+  - Implement a notification system to alert users about expired food items.
+  - Enable the system to automatically remove expired items from the inventory.
 
 ### Order Management
 
-The system needs to handle placing orders and keeping track of order details. The information that should be stored in each order is illustrated in the diagram below.
+The Order Management module focuses on handling customer orders efficiently. Key features include:
 
-[Diagram Placeholder]
+- **Place Orders:**
+  - Provide a user-friendly interface to place and process customer orders.
+  - Utilize JavaScript Arrays and Objects to organize and store order details.
 
-## Technology Stack
+- **Order Information:**
+  - Store essential information for each order, including items ordered, quantities, and total amounts.
 
-The system will be developed using JavaScript Arrays and Objects for efficient data management and organization.
+## Getting Started
 
-## Annex
+To set up the MOS Burgers Digital System on your local machine, follow these steps:
 
-[Annex Placeholder]
+1. **Clone the Repository:**
