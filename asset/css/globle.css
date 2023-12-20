@@ -1,0 +1,21 @@
+.cursor {
+  width: 26px;
+  height: 26px;
+  border: 1px solid yellow;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 100ms;
+  transition-timing-function: ease-out;
+  z-index: 2;
+}
+
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: yellow;
+  transition-duration: 50ms;
+  transition-timing-function: ease-out;
+
+}

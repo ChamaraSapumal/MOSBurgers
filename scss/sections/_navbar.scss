@@ -1,0 +1,81 @@
+@use '../custom' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,900&display=swap');
+
+
+
+.menu {
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      font-family: 'Poppins';
+      color: $white !important;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+
+  object-fit: cover;
+  position: absolute;
+  width: 100vw;
+  z-index: 999;
+
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: $warning !important;
+}
+
+.navbar-brand {
+  color: $white !important;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-toggler {
+  border: 2px solid $white;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-20px);
+  }
+
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.brand-logo:hover {
+  animation: bounce 0.5s;
+}
+
+
+.sign-in-img {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.your-meal {
+  @include media-breakpoint-up(sm) {
+    display: none;
+  }
+}
