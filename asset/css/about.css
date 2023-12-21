@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.img1 img {
+  height: 200px;
+  width: 100%;
+}
+
+.img2 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid white;
+  margin-top: -80px;
+}
+
+h2,
+h6 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.underline {
+  width: 130px;
+  height: 5px;
+  background-color: #ffc107;
+  margin: auto;
+}
+
+.main p {
+  padding: 10px;
+  font-family: 'Poppins';
+}
