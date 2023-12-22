@@ -16,6 +16,7 @@
 <body>
 
 
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-black">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://chamarasapumal.github.io/mosburgers/">
@@ -63,7 +64,10 @@
       </div>
     </div>
   </nav>
+  <!-- Navbar -->
 
+
+  <!-- Header section -->
   <div class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold text-body-emphasis">Burger Bliss</h1>
     <div class="col-lg-6 mx-auto">
@@ -71,8 +75,10 @@
         canvases, boasting endless variations with crisp lettuce, tomatoes, pickles, and melty cheese. A flavorful union
         satisfying taste buds worldwide.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+        <a href="#burger-catogory"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Find
+            burger</button></a>
+        <a href="#our-secret"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Our
+            secret</button></a>
       </div>
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
@@ -83,7 +89,10 @@
       </div>
     </div>
   </div>
+  <!-- Header section -->
 
+
+  <!-- Burger category -->
   <section id="burger-catogory" class="pt-3">
 
     <h1 class="text-center my-5 fw-bold">The Burger Encyclopedia</h1>
@@ -92,12 +101,13 @@
 
       <div class="row gy-3 ">
 
-        <div class="col-md-4">
+        <div id="classic-burger" class="col-lg-3 col-sm-6">
           <div class="card h-100">
             <img src="../asset/img/burgers/classic_burger_lg.jpg" class="card-img-top" alt="dubai mall">
-            <div id="classic-burger" class="card-body">
+            <div class="card-body">
               <h5 class="card-title">Classic Burger ( Large ) - LKR 750</h5>
-              <p class="card-text">Indulge in our Classic Burger (Large) – a timeless delight featuring a premium beef
+              <p class="card-text">Indulge in our Classic Burger (Large) – a timeless delight featuring a
+                premium beef
                 patty nestled in toasted buns. Enjoy the perfect blend of fresh lettuce, ripe tomatoes, pickles, and
                 savory sauces, delivering a satisfying and nostalgic taste that never goes out of style.
               </p>
@@ -107,7 +117,7 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class="col-lg-3 col-sm-6">
           <div class="card h-100">
             <img src="../asset/img/burgers/classic_burger_rg.jpg" class="card-img-top" alt="aura skypool">
             <div class="card-body">
@@ -120,7 +130,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div id="turkey-burger" class="col-lg-3 col-sm-6">
           <div class="card h-100">
             <img src="../asset/img/burgers/turkey_burger.jpg" class="card-img-top" alt="hotel atlantis dubai">
             <div class="card-body">
@@ -134,10 +144,7 @@
           </div>
         </div>
 
-      </div>
-      <div class="row gy-3 mt-3 ">
-
-        <div class="col-md-4">
+        <div id="chicken-burger" class="col-lg-3 col-sm-6">
           <div class="card h-100">
             <img src="../asset/img/burgers/cheese_burger_lg.jpg" class="card-img-top" alt="tabuk">
             <div class="card-body">
@@ -151,6 +158,9 @@
           </div>
 
         </div>
+      </div>
+
+      <div class="row gy-3 mt-3 ">
 
         <div class="col-md-4">
           <div class="card h-100">
@@ -165,22 +175,20 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div id="cheese-burger" class="col-md-4">
           <div class="card h-100">
             <img src="../asset/img/burgers/cheese_burger_lg.jpg" class="card-img-top" alt="umluj">
             <div class="card-body">
               <h5 class="card-title">Cheese Burger ( Large ) - LKR 1,000</h5>
               <p class="card-text">Delight in our Cheese Burger (Large) – a delicious harmony of flavors. Indulge in a
                 juicy beef patty layered with melted cheese, nestled between perfectly toasted buns. Complemented by
-                fresh lettuce, ripe tomatoes, pickles, and our special sauces, it's a generous and fulfilling feast for
+                fresh lettuce, ripe tomatoes, pickles, and our special sauces, it's a generous and fulfilling feast
+                for
                 cheeseburger enthusiasts.</p>
               <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row gy-3 mt-3 ">
 
         <div class="col-md-4">
           <div class="card h-100">
@@ -188,38 +196,10 @@
             <div class="card-body">
               <h5 class="card-title">Cheese Burger ( Regular ) - LKR 600</h5>
               <p class="card-text">Treat yourself to our Cheese Burger (Regular) – a classic delight with a perfect
-                balance. Enjoy a savory beef patty topped with melted cheese, embraced by soft buns. Complete with fresh
+                balance. Enjoy a savory beef patty topped with melted cheese, embraced by soft buns. Complete with
+                fresh
                 lettuce, ripe tomatoes, a hint of pickles, and our signature sauces, it's a satisfying choice for a
                 taste of the traditional.</p>
-              <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card h-100">
-            <img src="../asset/img/burgers/bacon_burger.jpg" class="card-img-top" alt="tiran island">
-            <div class="card-body">
-              <h5 class="card-title">Bacon Burger - LKR 650</h5>
-              <p class="card-text">Indulge in our Bacon Burger—an explosion of savory flavors. Revel in a juicy beef
-                patty crowned with crispy bacon, nestled between toasted buns. Enhanced by fresh lettuce, ripe tomatoes,
-                a touch of pickles, and our signature sauces, it's a mouthwatering experience that combines the best of
-                smoky and savory.</p>
-              <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card h-100">
-            <img src="../asset/img/burgers/shawarma_burger.jpg" class="card-img-top" alt="umluj">
-            <div class="card-body">
-              <h5 class="card-title">Shawarma Burger - LKR 850</h5>
-              <p class="card-text">
-                Discover our Shawarma Burger—an exotic twist on a classic favorite. Immerse yourself in a medley of
-                flavors with a seasoned shawarma-inspired patty, embraced by warm, toasted buns. Infused with authentic
-                spices and complemented by fresh lettuce, diced tomatoes, and our special sauces, it's a fusion of
-                cultures in every satisfying bite.</p>
               <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
             </div>
           </div>
@@ -229,7 +209,39 @@
 
       <div class="row gy-3 mt-3 ">
 
-        <div class="col-md-4">
+        <div class="col-lg-3 col-sm-6">
+          <div id="bacon-burger" class="card h-100">
+            <img src="../asset/img/burgers/bacon_burger.jpg" class="card-img-top" alt="tiran island">
+            <div class="card-body">
+              <h5 class="card-title">Bacon Burger - LKR 650</h5>
+              <p class="card-text">Indulge in our Bacon Burger—an explosion of savory flavors. Revel in a juicy beef
+                patty crowned with crispy bacon, nestled between toasted buns. Enhanced by fresh lettuce, ripe
+                tomatoes,
+                a touch of pickles, and our signature sauces, it's a mouthwatering experience that combines the best
+                of
+                smoky and savory.</p>
+              <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="card h-100">
+            <img src="../asset/img/burgers/shawarma_burger.jpg" class="card-img-top" alt="umluj">
+            <div class="card-body">
+              <h5 class="card-title">Shawarma Burger - LKR 850</h5>
+              <p class="card-text">
+                Discover our Shawarma Burger—an exotic twist on a classic favorite. Immerse yourself in a medley of
+                flavors with a seasoned shawarma-inspired patty, embraced by warm, toasted buns. Infused with
+                authentic
+                spices and complemented by fresh lettuce, diced tomatoes, and our special sauces, it's a fusion of
+                cultures in every satisfying bite.</p>
+              <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
           <div class="card h-100">
             <img src="../asset/img/burgers/olive_burger.jpg" class="card-img-top" alt="tabuk">
             <div class="card-body">
@@ -243,29 +255,16 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-lg-3 col-sm-6">
           <div class="card h-100">
             <img src="../asset/img/burgers/double_cheese_burger.jpg" class="card-img-top" alt="tiran island">
             <div class="card-body">
               <h5 class="card-title">Double-Cheese Burger - LKR 1,250</h5>
               <p class="card-text">Dive into our Double-Cheese Burger—a symphony of cheesy goodness. Enjoy two juicy
                 beef patties generously layered with melted cheese between golden, toasted buns. Elevated by fresh
-                lettuce, ripe tomatoes, a hint of pickles, and our signature sauces, it's a hearty and flavorful delight
+                lettuce, ripe tomatoes, a hint of pickles, and our signature sauces, it's a hearty and flavorful
+                delight
                 for cheeseburger enthusiasts.</p>
-              <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card h-100">
-            <img src="../asset/img/burgers/crispy_chicken_burger_rg.jpg" class="card-img-top" alt="umluj">
-            <div class="card-body">
-              <h5 class="card-title">Crispy Chicken Burger (Regular) - LKR 1,200</h5>
-              <p class="card-text">
-                Treat yourself to our Crispy Chicken Burger (Regular) — a crunchy delight. Sink your teeth into a crispy
-                chicken patty nestled between soft buns. Enhanced with fresh lettuce, ripe tomatoes, a touch of pickles,
-                and our signature sauces, it's a satisfying and flavorful choice for a crispy, juicy experience.</p>
               <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
             </div>
           </div>
@@ -277,10 +276,27 @@
 
         <div class="col-md-4">
           <div class="card h-100">
+            <img src="../asset/img/burgers/crispy_chicken_burger_rg.jpg" class="card-img-top" alt="umluj">
+            <div class="card-body">
+              <h5 class="card-title">Crispy Chicken Burger (Regular) - LKR 1,200</h5>
+              <p class="card-text">
+                Treat yourself to our Crispy Chicken Burger (Regular) — a crunchy delight. Sink your teeth into a
+                crispy
+                chicken patty nestled between soft buns. Enhanced with fresh lettuce, ripe tomatoes, a touch of
+                pickles,
+                and our signature sauces, it's a satisfying and flavorful choice for a crispy, juicy experience.</p>
+              <a data-bs-toggle="modal" data-bs-target="#book-tour" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
             <img src="../asset/img/burgers/crispy_chicken_burger_lg.jpg" class="card-img-top" alt="tabuk">
             <div class="card-body">
               <h5 class="card-title">Crispy Chicken Burger (Large) - LKR 1,600</h5>
-              <p class="card-text">Savor the extra crunch with our Crispy Chicken Burger (Large). Delight in a generous
+              <p class="card-text">Savor the extra crunch with our Crispy Chicken Burger (Large). Delight in a
+                generous
                 crispy chicken patty embraced by soft buns. Complemented by fresh lettuce, ripe tomatoes, a hint of
                 pickles, and our signature sauces, it's a fulfilling and crispy indulgence perfect for a larger
                 appetite.</p>
@@ -295,7 +311,8 @@
             <div class="card-body">
               <h5 class="card-title">Paneer Burger - LKR 900</h5>
               <p class="card-text">
-                Experience a vegetarian delight with our Paneer Burger. Enjoy a flavorful paneer (Indian cottage cheese)
+                Experience a vegetarian delight with our Paneer Burger. Enjoy a flavorful paneer (Indian cottage
+                cheese)
                 patty nestled between soft buns. Elevated with a medley of fresh lettuce, ripe tomatoes, and our
                 signature sauces, it's a satisfying and savory choice for those seeking a delicious meat-free option.
               </p>
@@ -306,10 +323,17 @@
 
       </div>
 
-    </div>
+  </section>
+  <!-- Burger category -->
+
+
+  <!-- Our secret -->
+  <section id="our-secret" class="pt-4">
 
   </section>
+  <!-- Our secret -->
 
+  <!-- Footer -->
   <section id="footer" class="">
     <div class="container">
       <footer class="py-5">
@@ -317,11 +341,16 @@
           <div class="col-6 col-md-2 mb-3">
             <h5>Burgers</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Classic Burger</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Turkey Burger</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chicken Burger</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cheese Burger</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bacon Burger</a></li>
+              <li class="nav-item mb-2"><a href="#classic-burger" class="nav-link p-0 text-body-secondary">Classic
+                  Burger</a></li>
+              <li class="nav-item mb-2"><a href="#turkey-burger" class="nav-link p-0 text-body-secondary">Turkey
+                  Burger</a></li>
+              <li class="nav-item mb-2"><a href="#chicken-burger" class="nav-link p-0 text-body-secondary">Chicken
+                  Burger</a></li>
+              <li class="nav-item mb-2"><a href="#cheese-burger" class="nav-link p-0 text-body-secondary">Cheese
+                  Burger</a></li>
+              <li class="nav-item mb-2"><a href="#bacon-burger" class="nav-link p-0 text-body-secondary">Bacon
+                  Burger</a></li>
             </ul>
           </div>
 
@@ -384,6 +413,8 @@
       </footer>
     </div>
   </section>
+  <!-- Footer -->
+
 
   <script src="../asset/js/click.js"></script>
   <script src="../asset/js/app.js"></script>
